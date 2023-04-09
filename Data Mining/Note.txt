@@ -1,0 +1,24 @@
+Nama Dosen Pengampu : Junta Zeniarja, M.Kom
+No Hp 		  : -
+email 		  : junta@dsn.dinus.ac.id
+Ruang Dosen 	  : H.2.1
+
+Tata Cara Perkuliahan
+Mata kuliah ini mengkaji algoritma dan paradigma komputasional yang memungkinkan komputer untuk mendapatkan pola atau pengetahuan dalam sebuah basis data melalui fungsi – fungsi mining (klasifikasi, klastering, asosiasi, regresi serta visualisasi). 
+Kajian secara konseptual dan praktis pada setiap tahapan proses knowledge discovery dengan tahapan proses data mining menggunakan pendekatan CRISP-DM (Cross Industry Standard Process for Data Mining). 
+Perkembangan dan isu – isu terkait dengan tantangan di bidang data mining juga dibahas, beserta dengan implementasinya ke dalam pemrograman python.
+
+Pengantar Data Mining
+https://youtu.be/VtlhQ-jONG4
+
+Kontrak Kuliah
+Tugas : 40 %
+UTS	: 25 %
+UAS	: 35 %
+
+Peraturan
+- Presensi harus selalu diisi.
+- Minimal jumlah kehadiran 75%.
+- Hadir di kelas paling lambat 30 menit.
+- Menggunakan pakaian rapi dan sopan bersepatu.
+- Wajib mengerjakan tugas dan mengerjakan Project Akhir Data Mining.
