@@ -14,6 +14,5 @@ public class KonversiDemo {
             konversi.tampilHasil();
             System.out.print("Apakah anda ingin mengulang? (y/n): ");
         } while (input.next().equalsIgnoreCase("y"));
-        
     }
 }

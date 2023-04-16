@@ -34,8 +34,8 @@ public class Determinan {
 
         if (imajiner == true) {
             System.out.println("Akar-akar persamaan kuadrat adalah: ");
-            System.out.println("x1 = " + x1 + " + " + Math.sqrt(-d) + "i");
-            System.out.println("x2 = " + x2 + " - " + Math.sqrt(-d) + "i");
+            System.out.println("x1 = " + x1 + ", nilai akar bersifat imaginer");
+            System.out.println("x2 = " + x2 + ", nilai akar bersifat imaginer");
         } else {
             System.out.println("Akar-akar persamaan kuadrat adalah: ");
             System.out.println("x1 = " + x1);

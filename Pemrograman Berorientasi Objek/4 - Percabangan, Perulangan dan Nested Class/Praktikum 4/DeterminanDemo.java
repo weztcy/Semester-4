@@ -14,7 +14,7 @@ public class DeterminanDemo {
             float c = input.nextFloat();
             det.setData(a, b, c);
             det.tampilHasil();
-            System.out.print("Apakah anda ingin mengulang? (y/n)");
-        } while (input.next().equals("y"));
+            System.out.print("Apakah anda ingin mengulang? (y/n): ");
+        } while (input.next().equalsIgnoreCase("y"));
     }
 }

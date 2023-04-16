@@ -28,5 +28,4 @@ public class Konversi {
         System.out.println("Jam: " + hitungJam());
         System.out.println("Hari: " + hitungHari());
     }
-
 }
