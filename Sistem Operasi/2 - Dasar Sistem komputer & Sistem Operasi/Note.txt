@@ -1,0 +1,11 @@
+#Realisasi Materi ke-2
+
+Sistem Komputer
+	Arsitektur Hardware
+	Diagram Sistem Komputer
+	Komponen dan Fungsi
+Sistem Operasi
+	Arsitektur Sistem Operasi
+	Diagram Sistem Operasi
+	Komponen dan Fungsi
+Implementasi dan Macam Sistem Operasi

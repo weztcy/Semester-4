@@ -1,0 +1,8 @@
+#Realisasi Materi ke-5
+
+Penjadwalan Proses / Penjadwalan CPU
+Penjadwalan Non-Pre-emptive
+Algoritma Penjadwalan FIFO / FCFS
+
+Perhitungan Penjadwalan FIFO dari Link External
+https://www.youtube.com/watch?v=FhcRPlxXk18

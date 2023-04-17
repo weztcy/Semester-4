@@ -1,0 +1,5 @@
+#Realisasi Materi ke-4
+
+Proses, Penciptaan dan Penghancuran Proses
+Proses vs Thread
+Alokasi Sumber Daya

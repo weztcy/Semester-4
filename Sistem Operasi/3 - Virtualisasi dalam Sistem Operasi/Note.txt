@@ -1,0 +1,5 @@
+#Realisasi Materi ke-3
+
+Fundamental Memory (Media Penyimpanan / Storage)
+Fundamental Filesystems
+Fundamental Virtualisasi

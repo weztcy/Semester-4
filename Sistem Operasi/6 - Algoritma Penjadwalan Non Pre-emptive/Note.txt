@@ -1,0 +1,7 @@
+#Realisasi Materi ke-6
+
+Penjadwalan Pre-emptive
+Algoritme-algoritme Penjadwalan Proses (FIFO, SJF, PSJF, SRF, RR, PS, GS, MFQ, HRRN)
+
+Perhitungan Penjadwalan SJF dari Link External
+https://www.youtube.com/watch?v=VyKmT0WjH3Y
