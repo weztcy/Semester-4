@@ -5,4 +5,3 @@ public class Joko {
         System.out.println("Kelas Joko");
     }
 }
-

@@ -1,38 +1,37 @@
 import java.util.Scanner;
 public class MatrixDemo {
-    Matrix matrix = new Matrix();
-    static Scanner input = new Scanner(System.in);
-    static int menu;
-
     public static void main(String[] args) {
-        do {
+        Matrix mx = new Matrix();
+        do{
+            System.out.println("");
             System.out.println("Menu Matrix");
             System.out.println("1. Penjumlahan Matrix");
             System.out.println("2. Pengurangan Matrix");
             System.out.println("3. Perkalian Matrix");
             System.out.println("4. Transpose Matrix");
-            System.out.println("5. Keluar");
-            
-            System.out.print("Masukkan pilihan : ");
-            menu = input.nextInt();
-
-            switch (menu) {
+            System.out.println("5. Exit");
+            System.out.print("Masukkan menu: ");
+            Scanner input = new Scanner(System.in);
+            int menu = input.nextInt();
+            switch(menu){
                 case 1:
-                    Matrix.tambahMatrix(matrix1, matrix2);
+                    mx.penjumlahanMatrix();
                     break;
                 case 2:
-                    matrix.kurangMatrix(matrix1, matrix2);
+                    mx.penguranganMatrix();
                     break;
                 case 3:
-                    matrix.kaliMatrix(matrix1, matrix2);
+                    mx.perkalianMatrix();
                     break;
                 case 4:
-                    matrix.transposeMatrix(matrix1);
+                    mx.transposeMatrix();
                     break;
                 case 5:
-                    System.out.println("Keluar");
+                    System.exit(0);
                     break;
+                default:
+                    System.out.println("menu tidak ada");
             }
-        } while (menu <= 5);
+        }while(true);
     }
 }

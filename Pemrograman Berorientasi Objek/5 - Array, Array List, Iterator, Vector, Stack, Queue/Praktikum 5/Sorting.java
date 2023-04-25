@@ -1,152 +1,123 @@
-import java.util.Scanner;
 public class Sorting {
-    int jumlahData;;
-
-    void isiData() {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Masukkan jumlah data : ");
-        jumlahData = input.nextInt();
+    void printData(int data[]) {
+        int n = data.length;
+        for (int i = 0; i < n; ++i)
+            System.out.print(data[i] + " ");
+        System.out.println();
     }
 
-    void bubbleSort(int[] data) {
-        int i, j, temp;
-        for (i = 0; i < jumlahData; i++) {
-            for (j = 0; j < jumlahData - 1; j++) {
+    static void swap(int[] data, int i, int j) {
+        int temp = data[i];
+        data[i] = data[j];
+        data[j] = temp;
+    }
+
+    void bubbleSort(int data[]) {
+        int n = data.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
                 if (data[j] > data[j + 1]) {
-                    temp = data[j];
+                    int temp = data[j];
                     data[j] = data[j + 1];
                     data[j + 1] = temp;
+                    printData(data);
                 }
             }
         }
     }
 
-    int partition(int[] data, int left, int right) {
-        int pivot = data[left];
-        int i = left + 1;
-        int j = right;
-        int temp;
-        while (i <= j) {
-            while (data[i] < pivot) {
+    int partition(int[] data, int low, int high) {
+        int pivot = data[high];
+        int i = (low - 1);
+        for (int j = low; j <= high - 1; j++) {
+            if (data[j] < pivot) {
                 i++;
-            }
-            while (data[j] > pivot) {
-                j--;
-            }
-            if (i <= j) {
-                temp = data[i];
-                data[i] = data[j];
-                data[j] = temp;
-                i++;
-                j--;
+                swap(data, i, j);
+                printData(data);
             }
         }
-        temp = data[left];
-        data[left] = data[j];
-        data[j] = temp;
-        return j;
+        swap(data, i + 1, high);
+        return (i + 1);
     }
 
-    int quickSort(int[] data, int left, int right) {
-        int pivot;
-        if (left < right) {
-            pivot = partition(data, left, right);
-            quickSort(data, left, pivot - 1);
-            quickSort(data, pivot + 1, right);
+    void quickSort(int[] data, int low, int high) {
+        if (low < high) {
+            int pi = partition(data, low, high);
+            quickSort(data, low, pi - 1);
+            quickSort(data, pi + 1, high);
         }
-        return 0;
     }
 
-    void insertionArray(int[] data) {
-        int i, j, temp;
-        for (i = 1; i < jumlahData; i++) {
-            temp = data[i];
-            j = i - 1;
-            while (j >= 0 && data[j] > temp) {
+    void insertionSort(int data[]) {
+        int n = data.length;
+        for (int i = 1; i < n; ++i) {
+            int key = data[i];
+            int j = i - 1;
+            while (j >= 0 && data[j] > key) {
                 data[j + 1] = data[j];
-                j--;
+                j = j - 1;
+                printData(data);
             }
-            data[j + 1] = temp;
+            data[j + 1] = key;
         }
     }
 
-    void selectionArray(int[] data) {
-        int i, j, temp;
-        for (i = 0; i < jumlahData - 1; i++) {
-            for (j = i + 1; j < jumlahData; j++) {
-                if (data[i] > data[j]) {
-                    temp = data[i];
-                    data[i] = data[j];
-                    data[j] = temp;
+    void selectionSort(int data[]) {
+        int n = data.length;
+        for (int i = 0; i < n - 1; i++) {
+            int min_idx = i;
+            for (int j = i + 1; j < n; j++) {
+                if (data[j] < data[min_idx]) {
+                    min_idx = j;
                 }
             }
+            swap(data, min_idx, i);
+            printData(data);
         }
     }
 
-    void mergeSort(int[] data, int left, int right) {
-        if (left < right) {
-            int mid = (left + right) / 2;
-            mergeSort(data, left, mid);
-            mergeSort(data, mid + 1, right);
-            merge(data, left, mid, right);
-        }
-    }
-
-    void merge(int[] data, int left, int mid, int right) {
-        int[] temp = new int[data.length];
-        for (int i = left; i <= right; i++) {
-            temp[i] = data[i];
-        }
-        int i = left;
-        int j = mid + 1;
-        int k = left;
-        while (i <= mid && j <= right) {
-            if (temp[i] <= temp[j]) {
-                data[k] = temp[i];
+    void merge(int a[], int beg, int mid, int end) {
+        int i, j, k;
+        int n1 = mid - beg + 1;
+        int n2 = end - mid;
+        int Leftdata[] = new int[n1];
+        int Rightdata[] = new int[n2];
+        for (i = 0; i < n1; i++)
+            Leftdata[i] = a[beg + i];
+        for (j = 0; j < n2; j++)
+            Rightdata[j] = a[mid + 1 + j];
+        i = 0;
+        j = 0;
+        k = beg;
+        while (i < n1 && j < n2) {
+            if (Leftdata[i] <= Rightdata[j]) {
+                a[k] = Leftdata[i];
                 i++;
             } else {
-                data[k] = temp[j];
+                a[k] = Rightdata[j];
                 j++;
             }
             k++;
         }
-        while (i <= mid) {
-            data[k] = temp[i];
-            k++;
+        while (i < n1) {
+            a[k] = Leftdata[i];
             i++;
+            k++;
+        }
+        while (j < n2) {
+            a[k] = Rightdata[j];
+            j++;
+            k++;
         }
     }
 
-    void printArray(int[] data) {
-        for (int i = 0; i < jumlahData; i++) {
-            System.out.print(data[i] + " ");
+    void mergeSort(int a[], int beg, int end) {
+        if (beg < end) {
+            int mid = (beg + end) / 2;
+            mergeSort(a, beg, mid);
+            mergeSort(a, mid + 1, end);
+            merge(a, beg, mid, end);
+            printData(a);
         }
-        System.out.println();
-    }
-
-    public static void main(String[] args) {
-        Sorting sorting = new Sorting();
-        sorting.isiData();
-        int[] data = new int[sorting.jumlahData];
-        for (int i = 0; i < sorting.jumlahData; i++) {
-            data[i] = (int) (Math.random() * 100);
-        }
-        System.out.println("Data sebelum diurutkan");
-        sorting.printArray(data);
-        sorting.bubbleSort(data);
-        System.out.println("Data setelah diurutkan dengan Bubble Sort");
-        sorting.printArray(data);
-        sorting.quickSort(data, 0, sorting.jumlahData - 1);
-        System.out.println("Data setelah diurutkan dengan Quick Sort");
-        sorting.printArray(data);
-        sorting.insertionArray(data);
-        System.out.println("Data setelah diurutkan dengan Insertion Sort");
-        sorting.printArray(data);
-        sorting.selectionArray(data);
-        System.out.println("Data setelah diurutkan dengan Selection Sort");
-        sorting.printArray(data);
-        sorting.mergeSort(data, 0, sorting.jumlahData - 1);
-        System.out.println("Data setelah diurutkan dengan Merge Sort");
-        sorting.printArray(data);
     }
 }

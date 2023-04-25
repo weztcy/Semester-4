@@ -11,7 +11,7 @@ public class NilaiDemo {
             int n = input.nextInt();
             Nilai[] nilaiMahasiswa = new Nilai[n];
             for (int i = 0; i < n; i++) {
-                System.out.println("Mahasiswa ke : "+(i+1));
+                System.out.println("Mahasiswa ke - "+(i+1));
                 nilaiMahasiswa[i] = new Nilai();
                 nilaiMahasiswa[i].isiData();
                 nilaiMahasiswa[i].hitungNilai();

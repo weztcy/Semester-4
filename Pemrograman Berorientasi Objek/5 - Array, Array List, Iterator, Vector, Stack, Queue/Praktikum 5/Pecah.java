@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Pecah {
-    void pecah() {
+    public static void main(String[] args) {
         int bilangan, p;
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan bilangan : ");

@@ -5,4 +5,3 @@ public class Budi {
         System.out.println("Kelas Budi");
     }
 }
-
