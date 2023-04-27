@@ -1,0 +1,20 @@
+#Realisasi Materi ke-3
+
+Pokok Bahasan :
+Proses KDD.
+Tahapan Utama Data Mining.
+Jenis – jenis dataset dan contohnya masing – masing.
+Tahapan pemrosesan awal data (preprocessing data).
+Penjelasan tentang data sampah, data noise vs data outlier.
+Penanganan missing value (data tidak lengkap).
+Implementasi preprocessing data dengan python.
+
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tahapan utama data mining.
+Mahasiswa mampu menjelaskan jenis-jenis dataset dan contohnya.
+Mahasiswa mampu menjelaskan tahapan pemrosesan awal data (preprocessing data).
+Mahasiswa mampu mengimplementasikan preprocessing data dengan python.
+
+Preprocessing Data
+https://youtu.be/3tDOYGDv8Ao

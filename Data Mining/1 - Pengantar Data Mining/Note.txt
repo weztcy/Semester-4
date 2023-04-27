@@ -1,5 +1,6 @@
-Pokok Bahasan :
+#Realisasi Materi ke-1
 
+Pokok Bahasan :
 Perkenalan, Kontrak Kuliah.
 Overview matakuliah Data Mining
 Pengantar Data Mining

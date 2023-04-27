@@ -1,0 +1,21 @@
+#Realisasi Materi ke-4
+
+Pokok Bahasan :
+Metode learning pada data mining.
+Supervised Learning.
+Unsupervised Learning.
+Association Learning.
+Teknik dan algoritma data mining.
+Contoh penerapan data mining.
+
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang metode learning pada data mining.
+Mahasiswa mampu menjelaskan tentang teknik dan algoritma data mining serta contohnya masing – masing.
+Mahasiswa mampu menjelaskan tentang beberapa contoh penerapan data mining.
+
+Metode Learning
+https://youtu.be/am6HgL17sfU
+
+Visualisasi Data Covid-19
+https://youtu.be/H4fNsPacScs

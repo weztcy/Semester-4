@@ -1,0 +1,16 @@
+#Realisasi Materi ke-7
+
+Pokok Bahasan :
+Penjelasan tentang Algoritma Decision Tree.
+Varian Algoritma Decision Tree.
+Contoh perhitungan manual Klasifikasi menggunakan algoritma Decision Tree.
+Implementasi Klasifikasi Decision Tree dengan python.
+
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang konsep algoritma Decision Tree.
+Mahasiswa mampu menjelaskan perhitungan klasifikasi menggunakan algoritma Decision Tree.
+Mahasiswa mampu mengimplementasikan klasifikasi Decision Tree dengan python.
+
+Klasifikasi dengan Decision Tree
+https://youtu.be/q6O0EDYhC5k

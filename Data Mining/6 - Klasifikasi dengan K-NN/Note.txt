@@ -1,0 +1,16 @@
+#Realisasi Materi ke-6
+
+Pokok Bahasan :
+Penjelasan tentang Klasifikasi.
+Penjelasan tentang Algoritma K-NN.
+Contoh perhitungan manual Klasifikasi menggunakan algoritma K-NN.
+Implementasi Klasifikasi K-NN dengan python.
+
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang konsep klasifikasi dan algoritma K-NN.
+Mahasiswa mampu menjelaskan perhitungan klasifikasi menggunakan algoritma K-NN.
+Mahasiswa mampu mengimplementasikan klasifikasi K-NN dengan python.
+
+Klasifikasi dengan K-NN
+https://youtu.be/yZY9CNcKPkY

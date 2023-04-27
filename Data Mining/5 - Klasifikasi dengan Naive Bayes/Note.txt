@@ -1,0 +1,16 @@
+Realisasi Materi ke-5
+
+Pokok Bahasan :
+Penjelasan tentang Klasifikasi.
+Penjelasan tentang Algoritma Naive Bayes.
+Contoh perhitungan manual Klasifikasi menggunakan algoritma Naive Bayes.
+Implementasi Klasifikasi Naive Bayes dengan python.
+
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang konsep klasifikasi dan algoritma Naive Bayes.
+Mahasiswa mampu menjelaskan perhitungan klasifikasi menggunakan algoritma Naive Bayes.
+Mahasiswa mampu mengimplementasikan klasifikasi Naive Bayes dengan python.
+
+Klasifikasi dengan Naive Bayes
+https://youtu.be/jwpoNiYFVNY

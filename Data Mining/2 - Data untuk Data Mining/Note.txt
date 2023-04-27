@@ -13,3 +13,6 @@ Capaian Pembelajaran :
 Mahasiswa mampu menjelaskan masing – masing atribut dan tipe data pada data mining.
 Mahasiswa mampu menjelaskan peran utama dan metode atau algoritma data mining.
 Mahasiswa mampu menjelaskan tahapan proses data mining dengan CRISP-DM.
+
+Data untuk Data Mining
+https://youtu.be/hL8ObIMmChM
