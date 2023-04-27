@@ -1,0 +1,15 @@
+#Realisasi Materi ke-2
+
+Pokok Bahasan :
+Penjelasan tentang dataset (koleksi data) beserta atribut dan tipe datanya.
+Tipe data, deskripsi dan contohnya.
+Peran utama data mining.
+Metode atau algoritma data mining.
+Proses data mining dengan CRISP-DM.
+f. Studi Kasus CRISP-DM.
+
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan masing – masing atribut dan tipe data pada data mining.
+Mahasiswa mampu menjelaskan peran utama dan metode atau algoritma data mining.
+Mahasiswa mampu menjelaskan tahapan proses data mining dengan CRISP-DM.
