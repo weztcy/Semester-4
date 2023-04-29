@@ -3,4 +3,4 @@ NIM		:	A11.2021.13254
 Kelompok	:	A11.442U
 
 Link GitHub Tugas Pertemuan 5 - Naive Bayes
-https://github.com/weztcy/Semester-4/blob/main/Data%20Mining/3%20-%20Preprocessing%20Data/preprocessing.ipynb
+https://github.com/weztcy/Semester-4/blob/main/Data%20Mining/5%20-%20Klasifikasi%20dengan%20Naive%20Bayes/Naive_Bayes.ipynb
