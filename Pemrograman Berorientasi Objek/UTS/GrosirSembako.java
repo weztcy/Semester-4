@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 class Produk {
     String kdProduk, nmProduk;
-    int hrgBeli;
-    int hrgJual;
+    int hrgBeli, hrgJual;
 
     public void inputProduk() {
         Scanner input = new Scanner(System.in);
@@ -17,9 +16,8 @@ class Produk {
 }
 
 class Grosir extends Produk {
-    int noNota, jmlJual, jnsByr;
+    int noNota, jmlJual, totJual, jnsByr, ppn, bunga, totByr;
     String ketByr, souvenir;
-    int totJual, ppn, bunga, totByr;
 
     Scanner input = new Scanner(System.in);
 
