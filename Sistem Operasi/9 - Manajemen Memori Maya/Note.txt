@@ -1,0 +1,7 @@
+#Realisasi Materi ke-9
+
+1. Fundamental Manajemen Memori
+1. Manajemen Memori Fisik
+   - Penempatan Statik vs Dinamis
+   - Algoritma Penempatan
+   - Sistem Buddy
