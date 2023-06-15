@@ -1,0 +1,202 @@
+<mxfile host="app.diagrams.net" modified="2023-06-15T19:49:30.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WOLbt65sy07pF0ogCTUm" version="21.4.0" type="device" pages="2">
+  <diagram name="Pustakawan - Mengelola peminjaman buku" id="tvzo9KvoAFTVKTy7YDru">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-8" value="Pustakawan" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="200" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="TJ1PhAFbBy8kobNwzN76-8">
+          <mxGeometry x="80" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-17" value="Masuk web Pustakanesia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TJ1PhAFbBy8kobNwzN76-8">
+          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-25" value="Start" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="TJ1PhAFbBy8kobNwzN76-8" source="TJ1PhAFbBy8kobNwzN76-15" target="TJ1PhAFbBy8kobNwzN76-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="220" as="sourcePoint" />
+            <mxPoint x="230" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-28" value="Mengisi data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TJ1PhAFbBy8kobNwzN76-8">
+          <mxGeometry x="40" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-55" value="Mengelola peminjaman buku" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TJ1PhAFbBy8kobNwzN76-8">
+          <mxGeometry x="40" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="TJ1PhAFbBy8kobNwzN76-8">
+          <mxGeometry x="80" y="640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-57" value="End" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="TJ1PhAFbBy8kobNwzN76-8" source="TJ1PhAFbBy8kobNwzN76-55" target="TJ1PhAFbBy8kobNwzN76-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="460" as="sourcePoint" />
+            <mxPoint x="160" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-9" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="200" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-21" value="Menampilkan form login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TJ1PhAFbBy8kobNwzN76-9">
+          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-39" value="Validasi data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TJ1PhAFbBy8kobNwzN76-9">
+          <mxGeometry x="40" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-48" value="Data valid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="TJ1PhAFbBy8kobNwzN76-9">
+          <mxGeometry x="50" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-50" value="Menampilkan dashboard admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TJ1PhAFbBy8kobNwzN76-9">
+          <mxGeometry x="40" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-51" value="Benar" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="TJ1PhAFbBy8kobNwzN76-9" source="TJ1PhAFbBy8kobNwzN76-48" target="TJ1PhAFbBy8kobNwzN76-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="480" as="sourcePoint" />
+            <mxPoint x="-60" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="TJ1PhAFbBy8kobNwzN76-9" source="TJ1PhAFbBy8kobNwzN76-39" target="TJ1PhAFbBy8kobNwzN76-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="420" as="sourcePoint" />
+            <mxPoint x="-60" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="TJ1PhAFbBy8kobNwzN76-17" target="TJ1PhAFbBy8kobNwzN76-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="370" as="sourcePoint" />
+            <mxPoint x="240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-31" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TJ1PhAFbBy8kobNwzN76-21" target="TJ1PhAFbBy8kobNwzN76-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="sourcePoint" />
+            <mxPoint x="310" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="320" />
+              <mxPoint x="180" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-36" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TJ1PhAFbBy8kobNwzN76-28" target="TJ1PhAFbBy8kobNwzN76-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="sourcePoint" />
+            <mxPoint x="340" y="380" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-52" value="Salah" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="TJ1PhAFbBy8kobNwzN76-48" target="TJ1PhAFbBy8kobNwzN76-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="560" as="sourcePoint" />
+            <mxPoint x="220" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ1PhAFbBy8kobNwzN76-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="TJ1PhAFbBy8kobNwzN76-50" target="TJ1PhAFbBy8kobNwzN76-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="620" as="sourcePoint" />
+            <mxPoint x="340" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Mf6ERdorBM7kW5_4ymD5" name="Anggota - Meminjam buku">
+    <mxGraphModel dx="1259" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JembRF-lMgYvyBCbfJti-1" value="Anggota" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="200" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="JembRF-lMgYvyBCbfJti-1">
+          <mxGeometry x="80" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-3" value="Masuk web Pustakanesia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JembRF-lMgYvyBCbfJti-1">
+          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-4" value="Start" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="JembRF-lMgYvyBCbfJti-1" source="JembRF-lMgYvyBCbfJti-2" target="JembRF-lMgYvyBCbfJti-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="220" as="sourcePoint" />
+            <mxPoint x="230" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-5" value="Mengisi data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JembRF-lMgYvyBCbfJti-1">
+          <mxGeometry x="40" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-6" value="Melakukan peminjaman buku" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JembRF-lMgYvyBCbfJti-1">
+          <mxGeometry x="40" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-7" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="JembRF-lMgYvyBCbfJti-1">
+          <mxGeometry x="80" y="640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-8" value="End" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="JembRF-lMgYvyBCbfJti-1" source="JembRF-lMgYvyBCbfJti-6" target="JembRF-lMgYvyBCbfJti-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="460" as="sourcePoint" />
+            <mxPoint x="160" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-9" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="200" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-10" value="Menampilkan form login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JembRF-lMgYvyBCbfJti-9">
+          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-11" value="Validasi data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JembRF-lMgYvyBCbfJti-9">
+          <mxGeometry x="40" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-12" value="Data valid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="JembRF-lMgYvyBCbfJti-9">
+          <mxGeometry x="50" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-13" value="Menampilkan dashboard user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JembRF-lMgYvyBCbfJti-9">
+          <mxGeometry x="40" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-14" value="Benar" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="JembRF-lMgYvyBCbfJti-9" source="JembRF-lMgYvyBCbfJti-12" target="JembRF-lMgYvyBCbfJti-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="480" as="sourcePoint" />
+            <mxPoint x="-60" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="JembRF-lMgYvyBCbfJti-9" source="JembRF-lMgYvyBCbfJti-11" target="JembRF-lMgYvyBCbfJti-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="420" as="sourcePoint" />
+            <mxPoint x="-60" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JembRF-lMgYvyBCbfJti-3" target="JembRF-lMgYvyBCbfJti-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="330" as="sourcePoint" />
+            <mxPoint x="240" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-17" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="JembRF-lMgYvyBCbfJti-10" target="JembRF-lMgYvyBCbfJti-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="280" />
+              <mxPoint x="180" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-18" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="JembRF-lMgYvyBCbfJti-5" target="JembRF-lMgYvyBCbfJti-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="340" y="340" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-19" value="Salah" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JembRF-lMgYvyBCbfJti-12" target="JembRF-lMgYvyBCbfJti-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="520" as="sourcePoint" />
+            <mxPoint x="220" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JembRF-lMgYvyBCbfJti-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JembRF-lMgYvyBCbfJti-13" target="JembRF-lMgYvyBCbfJti-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="580" as="sourcePoint" />
+            <mxPoint x="340" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
