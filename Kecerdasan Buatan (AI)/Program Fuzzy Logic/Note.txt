@@ -1,0 +1,3 @@
+Program menerima input nilai kelembapan ruangan (dalam rentang 0-100) dan melakukan fuzzifikasi menggunakan fungsi keanggotaan segitiga.
+Kemudian, dilakukan inferensi menggunakan aturan fuzzy (implikasi AND dan OR). 
+Terakhir, program melakukan defuzzifikasi menggunakan metode centroid dan menghasilkan nilai tegas untuk pengaturan suhu ruangan.
