@@ -8,10 +8,10 @@ Aturan:
 - Setiap teman presentasi di screenshot sebagai bukti.
 
 Format nama dokumen:
-UAS_442U_DokPerencanaanProyek_Kelp2
+- UAS_442U_DokPerencanaanProyek_Kelp2
 - UAS_442U_Proposal_2
-UAS_442U_VideoNarasi_Kelp2
+- UAS_442U_VideoNarasi_Kelp2
 - UAS_442U_DPPL_Kelp2
 - UAS_442U_SKPL_Kelp2
-UAS_442U_VideoTutorial_Kelp2
-UAS_442U_Testing_Kelp2
+- UAS_442U_VideoTutorial_Kelp2
+- UAS_442U_Testing_Kelp2
