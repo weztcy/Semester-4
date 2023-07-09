@@ -1,0 +1,16 @@
+#Realisasi Materi ke-12
+
+Pokok Bahasan :
+Penjelasan tentang konsep Regresi.
+Regresi Linear Sederhana.
+Regresi Linear Berganda.
+Contoh perhitungan Regresi.
+Implementasi Regresi dengan Python.
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang konsep Regresi.
+Mahasiswa mampu menjelaskan contoh perhitungan Regresi.
+Mahasiswa mampu mengimplementasikan Regresi dengan Python.
+
+Regresi dengan Python | Regresi Linear & Berganda
+https://www.youtube.com/watch?v=nsnkDzqiHPY

@@ -17,5 +17,5 @@ Mahasiswa mampu menjelaskan tentang beberapa contoh penerapan data mining.
 Metode Learning
 https://youtu.be/am6HgL17sfU
 
-Visualisasi Data Covid-19
+Visualisasi Data Covid-19 dengan Python
 https://youtu.be/H4fNsPacScs

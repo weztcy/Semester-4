@@ -1,7 +1,7 @@
 Nama Dosen Pengampu : Junta Zeniarja, M.Kom
-No Hp 		  : -
-email 		  : junta@dsn.dinus.ac.id
-Ruang Dosen 	  : H.2.1
+Nomor Hp 	    : -
+Email 		    : junta@dsn.dinus.ac.id
+Ruang Dosen 	    : H.2.1
 
 Tata Cara Perkuliahan
 Mata kuliah ini mengkaji algoritma dan paradigma komputasional yang memungkinkan komputer untuk mendapatkan pola atau pengetahuan dalam sebuah basis data melalui fungsi – fungsi mining (klasifikasi, klastering, asosiasi, regresi serta visualisasi). 
@@ -13,8 +13,8 @@ https://youtu.be/VtlhQ-jONG4
 
 Kontrak Kuliah
 Tugas : 40 %
-UTS	: 25 %
-UAS	: 35 %
+UTS   : 25 %
+UAS   : 35 %
 
 Peraturan
 - Presensi harus selalu diisi.

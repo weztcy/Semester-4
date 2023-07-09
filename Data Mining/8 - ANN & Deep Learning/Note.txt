@@ -1,0 +1,10 @@
+#Realisasi Materi ke-8
+
+Pokok Bahasan :
+Penjelasan tentang ANN.
+Penjelasan tentang Deep Learning.
+Implementasi ke dalam pemrograman python.
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang konsep ANN dan Deep Learning.
+Mahasiswa mampu mengimplementasikannya ke dalam pemrograman python.

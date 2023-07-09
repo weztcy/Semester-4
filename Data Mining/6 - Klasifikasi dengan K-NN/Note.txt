@@ -12,5 +12,5 @@ Mahasiswa mampu menjelaskan tentang konsep klasifikasi dan algoritma K-NN.
 Mahasiswa mampu menjelaskan perhitungan klasifikasi menggunakan algoritma K-NN.
 Mahasiswa mampu mengimplementasikan klasifikasi K-NN dengan python.
 
-Klasifikasi dengan K-NN
+Klasifikasi K-NN dengan Python
 https://youtu.be/yZY9CNcKPkY
