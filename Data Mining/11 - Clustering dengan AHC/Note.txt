@@ -1,0 +1,15 @@
+#Realisasi Materi ke-11
+
+Pokok Bahasan :
+Penjelasan tentang konsep algoritma AHC (Agglomerative Hierarchical Clustering).
+Langkah - langkah algoritma AHC.
+Contoh kasus perhitungan Klastering dengan AHC.
+Implementasi Klastering AHC dengan Python.
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang konsep algoritma AHC.
+Mahasiswa mampu menjelaskan perhitungan klastering menggunakan algoritma AHC.
+Mahasiswa mampu mengimplementasikan klastering AHC dengan Python.
+
+Clustering AHC dengan Python
+https://youtu.be/s8K0lO9OFOA

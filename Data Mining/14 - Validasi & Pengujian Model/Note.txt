@@ -1,0 +1,17 @@
+#Realisasi Materi ke-14
+
+Pokok Bahasan :
+Penjelasan konsep Evaluasi dan Pengujian Model.
+Confusion Matrix.
+Teknik - Teknik Validasi Model.
+Split Validation vs Cross Validation.
+Parametric vs Nonparametric.
+Implementasi Evaluasi dan Pengujian Model dengan Python.
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang konsep Evaluasi dan Pengujian Model.
+Mahasiswa mampu menjelaskan teknik - teknik Evaluasi dan Validasi Model.
+Mahasiswa mampu mengimplementasikan Evaluasi dan Pengujian Model dengan Python.
+
+Validasi dan Pengujian Model 
+https://youtu.be/rosTpHk9IuI

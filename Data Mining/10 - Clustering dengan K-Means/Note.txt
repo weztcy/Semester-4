@@ -1,0 +1,16 @@
+#Realisasi Materi ke-10
+
+Pokok Bahasan :
+Penjelasan tentang konsep algoritma K-Means.
+Kelebihan dan Kelemahan algoritma K-Means.
+Langkah - langkah algoritma K-Means.
+Contoh kasus perhitungan Klastering dengan K-Means.
+Implementasi Klastering K-Means dengan Python.
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang konsep algoritma K-Means.
+Mahasiswa mampu menjelaskan perhitungan klastering menggunakan algoritma K-Means.
+Mahasiswa mampu mengimplementasikan klastering K-Means dengan Python.
+
+Clustering K-Means dengan Python
+https://youtu.be/qS419ptctY4

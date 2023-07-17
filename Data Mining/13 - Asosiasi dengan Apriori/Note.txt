@@ -1,0 +1,15 @@
+#Realisasi Materi ke-13
+
+Pokok Bahasan :
+Penjelasan tentang konsep Asosiasi dan Apriori.
+Support dan Confidence.
+Contoh perhitungan Apriori.
+Implementasi Apriori dengan Python.
+
+Capaian Pembelajaran :
+Mahasiswa mampu menjelaskan tentang konsep Asosiasi dan Algoritma Apriori.
+Mahasiswa mampu menjelaskan contoh perhitungan Asosiasi dengan algoritma Apriori.
+Mahasiswa mampu mengimplementasikan Apriori dengan Python.
+
+Asosiasi dengan Python | Apriori dengan Python
+https://youtu.be/n9CpMx20st4
