@@ -12,5 +12,5 @@ Mahasiswa mampu menjelaskan tentang konsep klasifikasi dan algoritma Naive Bayes
 Mahasiswa mampu menjelaskan perhitungan klasifikasi menggunakan algoritma Naive Bayes.
 Mahasiswa mampu mengimplementasikan klasifikasi Naive Bayes dengan python.
 
-Klasifikasi dengan Naive Bayes
+Klasifikasi Naive Bayes dengan Python
 https://youtu.be/jwpoNiYFVNY

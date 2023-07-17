@@ -16,5 +16,5 @@ Mahasiswa mampu menjelaskan jenis-jenis dataset dan contohnya.
 Mahasiswa mampu menjelaskan tahapan pemrosesan awal data (preprocessing data).
 Mahasiswa mampu mengimplementasikan preprocessing data dengan python.
 
-Preprocessing Data
+Preprocessing Data dengan Python
 https://youtu.be/3tDOYGDv8Ao
