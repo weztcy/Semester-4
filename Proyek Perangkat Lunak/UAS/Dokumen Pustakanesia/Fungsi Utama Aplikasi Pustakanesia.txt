@@ -1,0 +1,11 @@
+Basis Data: Sistem aplikasi perpustakaan menggunakan basis data untuk menyimpan dan mengelola informasi yang terkait dengan buku, anggota perpustakaan, transaksi peminjaman, dan catatan lainnya. Basis data ini menjadi sumber utama data perpustakaan dan memungkinkan akses cepat dan efisien ke informasi yang diperlukan.
+
+Antarmuka Pengguna: Sistem ini dilengkapi dengan antarmuka pengguna yang intuitif dan mudah digunakan. Antarmuka ini memungkinkan pengguna, baik itu anggota perpustakaan maupun petugas perpustakaan, untuk berinteraksi dengan aplikasi dan melakukan berbagai tugas seperti mencari buku, meminjam, mengembalikan, memperpanjang peminjaman, dan lainnya. Antarmuka ini biasanya dirancang agar dapat diakses melalui perangkat komputer, smartphone, atau tablet.
+
+Manajemen Buku: Sistem aplikasi perpustakaan memiliki fitur manajemen buku yang mencakup pencarian, katalogisasi, dan penelusuran koleksi buku perpustakaan. Fitur ini memudahkan pengguna untuk menemukan buku yang diinginkan, melihat informasi terkait buku seperti sinopsis, penulis, dan ketersediaan, serta mengatur dan memelihara koleksi buku secara keseluruhan.
+
+Manajemen Anggota: Sistem ini juga mencakup fitur manajemen anggota yang memungkinkan pendaftaran, pengaturan profil, dan pembaruan data anggota perpustakaan. Fitur ini memudahkan anggota untuk bergabung dengan perpustakaan, mengakses informasi pribadi mereka, dan melacak aktivitas peminjaman mereka. Petugas perpustakaan juga dapat mengelola anggota dengan lebih efisien, termasuk penerbitan kartu anggota dan pengelolaan keanggotaan.
+
+Transaksi Peminjaman dan Pengembalian: Sistem aplikasi perpustakaan memiliki fitur untuk memfasilitasi transaksi peminjaman dan pengembalian buku. Pengguna dapat memilih buku yang ingin dipinjam, menentukan tanggal peminjaman, dan menerima konfirmasi peminjaman. Setelah selesai membaca, pengguna dapat melaporkan pengembalian buku melalui aplikasi. Fitur ini membantu mengatur dan melacak status peminjaman buku serta mempermudah proses administrasi yang terkait.
+
+Pengelolaan Denda dan Pengingat: Sistem ini juga mencakup fitur pengelolaan denda dan pengingat yang mengirimkan notifikasi kepada anggota perpustakaan tentang tanggal jatuh tempo peminjaman, denda keterlambatan pengembalian buku, serta jadwal pengingat deadline pengembalian buku.
